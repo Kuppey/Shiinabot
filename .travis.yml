@@ -1,0 +1,16 @@
+language: python
+
+python:
+- '3.4'
+- '3.5'
+
+env:
+  global:
+  - DEBUG="travis"
+  - ACCOUNTS="Folder_Example||Reddit_Example||Sankaku_Example"
+
+install:
+  - pip install -r requirements.txt
+
+script:
+  - python imagetweet.py

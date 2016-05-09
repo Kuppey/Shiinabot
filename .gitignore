@@ -1,0 +1,9 @@
+__pycache__/
+accounts/Ace*.ini
+FFmpeg/
+images/
+palette.png
+# Hide this for now
+dropbox_start.py
+Used*.txt
+personal/
